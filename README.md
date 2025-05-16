@@ -82,6 +82,10 @@ This smart office network follows a modular and layered design to meet the growi
 
 ---
 
+## 👩‍🏫 Project Instructor
 
+- Eng. Rehab Mostafa – Instructor and technical supervisor for the project.
+  
+---
 
 
