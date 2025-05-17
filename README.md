@@ -88,4 +88,4 @@ This smart office network follows a modular and layered design to meet the growi
   
 ---
 
-
+![Image](https://github.com/user-attachments/assets/f9204852-c6eb-4971-9156-e4eea75c322d)
