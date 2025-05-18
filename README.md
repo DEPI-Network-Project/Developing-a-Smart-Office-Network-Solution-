@@ -12,7 +12,6 @@ This smart office network follows a modular and layered design to meet the growi
 - **High Availability**: HSRP for default gateway redundancy between core Layer 3 switches.
 - **Remote Access**: VPN for authorized monitoring and control.
 - **IoT Readiness**: Network policies and secure protocols for IoT integration.
-- **VoIP Support**: VLAN prioritization and QoS policies for IP phone reliability.
 - **Internet Access**: NAT implemented on the edge router for internet connectivity.
 
 ### 🔧 Components:
@@ -41,10 +40,7 @@ This smart office network follows a modular and layered design to meet the growi
 | **NAT (PAT)**       | Internet access from private IPs |
 | **SVIs (Layer 3 Switching)** | Local inter-VLAN routing |
 | **ACLs**            | Restrict unauthorized access between VLANs |
-| **QoS**             | Bandwidth management for IP Phones and IoT |
-| **VPN**             | Secure remote access |
-| **TLS/SSL**         | Secure IoT communication |
-| **PoE**             | Power supply to IP phones via switches |
+| **TELNET/SSH**         | Remote secure access to devices |
 
 ---
 
@@ -52,7 +48,6 @@ This smart office network follows a modular and layered design to meet the growi
 
 | Requirement | Solution |
 |-------------|----------|
-| **Support IoT Devices** | VLAN 30, secure protocols (TLS/SSL), dedicated routing paths |
 | **Reliable Internet** | NAT + HSRP for fault tolerance |
 | **Data Security** | VLAN isolation + ACLs + encrypted communication |
 | **Remote Monitoring** | VPN access |
